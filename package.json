@@ -1,0 +1,23 @@
+{
+  "name": "openaiservice",
+  "version": "1.0.0",
+  "description": "this service will take input from UI as a promt , promt will conatain a resume in pdf format and job desc. it will then provide score comparing both the things",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harshit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^0.14.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.2",
+    "nodemon": "^3.1.10",
+    "pdf-parse": "^1.1.1"
+  }
+}
